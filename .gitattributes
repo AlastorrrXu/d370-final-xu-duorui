@@ -1,3 +1,6 @@
 * text=auto eol=lf
 *.png binary
 *.npz binary
+# result files stay byte for byte as the notebook wrote them: the notebook checks the
+# SHA-256 of the lock files before it reloads saved test results
+results/** -text
