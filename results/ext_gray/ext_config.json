@@ -1,0 +1,50 @@
+{
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "modes": [
+    "color",
+    "gray"
+  ],
+  "bootstrap": 10000,
+  "gray": "transforms.Grayscale(num_output_channels=3) after the crop and flip, before ToTensor and Normalize(ImageNet mean, std); ITU-R 601 luma",
+  "settings": {
+    "seed": 42,
+    "breeds": [
+      "Abyssinian",
+      "Bengal",
+      "Persian",
+      "Beagle",
+      "Pug",
+      "Samoyed"
+    ],
+    "val_frac": 0.2,
+    "warmup_epochs": 1,
+    "min_epochs": 100,
+    "patience": 2,
+    "max_epochs": 200,
+    "batch": 16,
+    "eval_batch": 32,
+    "head_lr": 0.001,
+    "layer4_lr": 0.0001,
+    "num_workers": 0,
+    "data_root": "C:\\Users\\LENOVO\\d370-26a\\data\\bigdata",
+    "tf32": false,
+    "cudnn_deterministic": true
+  },
+  "env": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+    "gpu_mem_gb": 8.0,
+    "cuda": "12.8",
+    "cudnn": 91900
+  }
+}

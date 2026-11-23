@@ -1,0 +1,230 @@
+{
+  "locked_at": "2026-11-17T00:04:27+00:00",
+  "required_lock_sha256": "cd398556f468fb4676ce171c7106b796163371774fb6663e45ac51c2240e3d19",
+  "seeds": [
+    42,
+    1,
+    2,
+    3,
+    4
+  ],
+  "modes": [
+    "color",
+    "gray"
+  ],
+  "models": {
+    "s42_color_frozen": {
+      "seed": 42,
+      "trained_on": "color",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/frozen_selected.pt",
+      "sha256": "066ac8aadd3a2766eb5618e738ae30a607c332d85c6990ba4b7115244fd4b1e4",
+      "selected_epoch": 20,
+      "val_correct": 119,
+      "val_loss": 0.07667315751314163
+    },
+    "s42_color_finetune": {
+      "seed": 42,
+      "trained_on": "color",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/finetune_selected.pt",
+      "sha256": "bc0640a1be30498b0d27dabac876eac2b93f0c89d808858ad2a74176eb777d1e",
+      "selected_epoch": 1,
+      "val_correct": 118,
+      "val_loss": 0.08075480163097382
+    },
+    "s42_gray_frozen": {
+      "seed": 42,
+      "trained_on": "gray",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s42_gray_frozen.pt",
+      "sha256": "ef84bd85f482dafef66c84b975e1568d727fdb88d1a25a23e0592c6b6ba6cd5e",
+      "selected_epoch": 33,
+      "val_correct": 118,
+      "val_loss": 0.11708378046751022
+    },
+    "s42_gray_finetune": {
+      "seed": 42,
+      "trained_on": "gray",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s42_gray_finetune.pt",
+      "sha256": "dff5312f5ad77281243df5aed9025d479a871b578bd1a8adf2553cb764f109ff",
+      "selected_epoch": 1,
+      "val_correct": 116,
+      "val_loss": 0.1367061287164688
+    },
+    "s1_color_frozen": {
+      "seed": 1,
+      "trained_on": "color",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s1_color_frozen.pt",
+      "sha256": "5e66b43940234295f3ea033aaf22a7543262f87d93d521f19b774fe9e37eca4a",
+      "selected_epoch": 7,
+      "val_correct": 119,
+      "val_loss": 0.07416366040706635
+    },
+    "s1_color_finetune": {
+      "seed": 1,
+      "trained_on": "color",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s1_color_finetune.pt",
+      "sha256": "7131a7678e27ea21ff10b71fa8a286ef9470a0dcb276d25c950cae875d0df0d6",
+      "selected_epoch": 30,
+      "val_correct": 118,
+      "val_loss": 0.1341497302055359
+    },
+    "s1_gray_frozen": {
+      "seed": 1,
+      "trained_on": "gray",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s1_gray_frozen.pt",
+      "sha256": "153ec403402d3acada3195acc488cb5aa19ac5aefb78b4117578b48df9aa1304",
+      "selected_epoch": 20,
+      "val_correct": 118,
+      "val_loss": 0.10179975628852844
+    },
+    "s1_gray_finetune": {
+      "seed": 1,
+      "trained_on": "gray",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s1_gray_finetune.pt",
+      "sha256": "001cb163ff9c0ffa72624091e2dbb67df000f73c090b764391aa7b5b8fdc36cd",
+      "selected_epoch": 92,
+      "val_correct": 114,
+      "val_loss": 0.18489377200603485
+    },
+    "s2_color_frozen": {
+      "seed": 2,
+      "trained_on": "color",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s2_color_frozen.pt",
+      "sha256": "67a05802092b63272c6936322ad1d8d06b52359d680eb1dd8591f975414c8387",
+      "selected_epoch": 43,
+      "val_correct": 118,
+      "val_loss": 0.06378732621669769
+    },
+    "s2_color_finetune": {
+      "seed": 2,
+      "trained_on": "color",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s2_color_finetune.pt",
+      "sha256": "25021d3121a0ddcb1e28d8aecfbde9d1a4487865d4d34694fc26a6a59337f078",
+      "selected_epoch": 70,
+      "val_correct": 118,
+      "val_loss": 0.15106961131095886
+    },
+    "s2_gray_frozen": {
+      "seed": 2,
+      "trained_on": "gray",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s2_gray_frozen.pt",
+      "sha256": "d104c293dc9da027c9ca5a2f427ecaec51130d0fe08ad8e83771a147231c0817",
+      "selected_epoch": 29,
+      "val_correct": 118,
+      "val_loss": 0.1092408075928688
+    },
+    "s2_gray_finetune": {
+      "seed": 2,
+      "trained_on": "gray",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s2_gray_finetune.pt",
+      "sha256": "353c08a85eaa2e3721629fc7312a0655de875c7e1dc110d34e67bd1f971ab61c",
+      "selected_epoch": 59,
+      "val_correct": 116,
+      "val_loss": 0.2657572031021118
+    },
+    "s3_color_frozen": {
+      "seed": 3,
+      "trained_on": "color",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s3_color_frozen.pt",
+      "sha256": "94ff1ea9cb39816803b49be2ba7561837c34ce449c1a35713c3b534ae133a0e1",
+      "selected_epoch": 58,
+      "val_correct": 118,
+      "val_loss": 0.059635672718286514
+    },
+    "s3_color_finetune": {
+      "seed": 3,
+      "trained_on": "color",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s3_color_finetune.pt",
+      "sha256": "482fa42fa9bff88b262a892f9c1fad94e4504e5cdea0ad103ad34dca620f54c0",
+      "selected_epoch": 2,
+      "val_correct": 117,
+      "val_loss": 0.07842182368040085
+    },
+    "s3_gray_frozen": {
+      "seed": 3,
+      "trained_on": "gray",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s3_gray_frozen.pt",
+      "sha256": "43310ba8f718384e0a30237a084501165e1a8b30d4b68787417c67aca6502582",
+      "selected_epoch": 18,
+      "val_correct": 118,
+      "val_loss": 0.10209541022777557
+    },
+    "s3_gray_finetune": {
+      "seed": 3,
+      "trained_on": "gray",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s3_gray_finetune.pt",
+      "sha256": "4e73f9303052eb06b31f05fa23737455a16b7a004fe6f0cc04e15f9646e44141",
+      "selected_epoch": 3,
+      "val_correct": 115,
+      "val_loss": 0.147746279835701
+    },
+    "s4_color_frozen": {
+      "seed": 4,
+      "trained_on": "color",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s4_color_frozen.pt",
+      "sha256": "95b1b149eb481e4ae0bdadb13618f2b2c94666dc4ec43d10e3eb44f8c4a7e7e7",
+      "selected_epoch": 5,
+      "val_correct": 119,
+      "val_loss": 0.09260808676481247
+    },
+    "s4_color_finetune": {
+      "seed": 4,
+      "trained_on": "color",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s4_color_finetune.pt",
+      "sha256": "ff02a5e86e24d9722dc41e51e91d41139d8bc0e80e82e6adec3f0586215e78d3",
+      "selected_epoch": 8,
+      "val_correct": 118,
+      "val_loss": 0.1100800409913063
+    },
+    "s4_gray_frozen": {
+      "seed": 4,
+      "trained_on": "gray",
+      "condition": "frozen",
+      "checkpoint": "checkpoints/ext_gray/s4_gray_frozen.pt",
+      "sha256": "bd8892f3ed3e825ec18fe65dcf56282c56e4782206ce09c2990bc1367c7a390d",
+      "selected_epoch": 22,
+      "val_correct": 118,
+      "val_loss": 0.10954252630472183
+    },
+    "s4_gray_finetune": {
+      "seed": 4,
+      "trained_on": "gray",
+      "condition": "finetune",
+      "checkpoint": "checkpoints/ext_gray/s4_gray_finetune.pt",
+      "sha256": "a4e71a03e226147431c5826af99e5d8b8025a598a072b661432af888501ef0bf",
+      "selected_epoch": 3,
+      "val_correct": 114,
+      "val_loss": 0.13187633454799652
+    }
+  },
+  "plan": [
+    "test: every model below scored once on the color and once on the gray version of the same test images, in the same order",
+    "primary, seed 42: test accuracy of each model trained and tested in gray minus the same model trained and tested in color; exact McNemar on the same images, paired bootstrap (10000, seed 42, the required part's resamples) for the accuracy and macro-F1 differences",
+    "secondary, seed 42: fine-tune minus frozen in gray, tested the same way; difference in differences (fine-tune gain in gray minus gain in color), paired bootstrap",
+    "replication over seeds [42, 1, 2, 3, 4]: the same quantities per seed, their mean and SD, and a bootstrap over seeds and test images (10000, seed 43) for the means",
+    "descriptive: color models scored on gray test images; gray-trained models on color test images; recall per breed; confusions of the gray models; the test images whose p(true) drops most without color (seed 42, mean of the two models)"
+  ],
+  "expectations": [
+    "if color matters anywhere, it is among the three cat breeds, where all of the color models' errors already are",
+    "a color-trained model scored on gray test images does worse than the same kind of model trained on gray",
+    "least certain: fine-tuning gains more without color, since layer4 can adapt to the new input and a frozen backbone cannot"
+  ],
+  "known_before_lock": "the required part's color test results for seed 42 (frozen 584/598, fine-tune 587/598); no gray test result and no test result for any other seed"
+}

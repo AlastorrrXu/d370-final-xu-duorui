@@ -1,0 +1,19 @@
+,true breed,called after the change,count
+0,Bengal,Abyssinian,39
+1,Abyssinian,Bengal,33
+2,Abyssinian,Pug,15
+3,Beagle,Pug,9
+4,Beagle,Samoyed,9
+5,Bengal,Persian,8
+6,Pug,Abyssinian,7
+7,Persian,Samoyed,5
+8,Abyssinian,Persian,3
+9,Persian,Bengal,2
+10,Persian,Abyssinian,2
+11,Samoyed,Abyssinian,2
+12,Bengal,Pug,2
+13,Pug,Beagle,2
+14,Beagle,Abyssinian,2
+15,Bengal,Samoyed,1
+16,Abyssinian,Beagle,1
+17,Samoyed,Beagle,1

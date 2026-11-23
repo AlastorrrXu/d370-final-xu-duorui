@@ -1,0 +1,6 @@
+# keep the dataset, the model weights and local bundles out of the repository
+checkpoints*/
+data/
+*.zip
+.ipynb_checkpoints/
+__pycache__/

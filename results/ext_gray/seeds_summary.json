@@ -1,0 +1,108 @@
+{
+  "per_seed": [
+    {
+      "seed": 42,
+      "color-trained frozen (%)": 97.65886287625418,
+      "color-trained finetune (%)": 98.16053511705685,
+      "gray-trained frozen (%)": 97.9933110367893,
+      "gray-trained finetune (%)": 96.98996655518395,
+      "frozen: gray - color (pp)": 0.33444816053511683,
+      "fine-tune: gray - color (pp)": -1.170568561872909,
+      "fine-tune - frozen, color (pp)": 0.5016722408026753,
+      "fine-tune - frozen, gray (pp)": -1.0033444816053505,
+      "difference in differences (pp)": -1.5050167224080258
+    },
+    {
+      "seed": 1,
+      "color-trained frozen (%)": 96.65551839464884,
+      "color-trained finetune (%)": 97.65886287625418,
+      "gray-trained frozen (%)": 97.9933110367893,
+      "gray-trained finetune (%)": 95.81939799331104,
+      "frozen: gray - color (pp)": 1.3377926421404673,
+      "fine-tune: gray - color (pp)": -1.8394648829431426,
+      "fine-tune - frozen, color (pp)": 1.0033444816053505,
+      "fine-tune - frozen, gray (pp)": -2.1739130434782594,
+      "difference in differences (pp)": -3.17725752508361
+    },
+    {
+      "seed": 2,
+      "color-trained frozen (%)": 96.48829431438128,
+      "color-trained finetune (%)": 95.81939799331104,
+      "gray-trained frozen (%)": 97.9933110367893,
+      "gray-trained finetune (%)": 96.48829431438128,
+      "frozen: gray - color (pp)": 1.5050167224080258,
+      "fine-tune: gray - color (pp)": 0.6688963210702337,
+      "fine-tune - frozen, color (pp)": -0.6688963210702337,
+      "fine-tune - frozen, gray (pp)": -1.5050167224080258,
+      "difference in differences (pp)": -0.8361204013377921
+    },
+    {
+      "seed": 3,
+      "color-trained frozen (%)": 97.15719063545151,
+      "color-trained finetune (%)": 96.98996655518395,
+      "gray-trained frozen (%)": 97.49163879598662,
+      "gray-trained finetune (%)": 97.9933110367893,
+      "frozen: gray - color (pp)": 0.33444816053511683,
+      "fine-tune: gray - color (pp)": 1.0033444816053505,
+      "fine-tune - frozen, color (pp)": -0.16722408026755842,
+      "fine-tune - frozen, gray (pp)": 0.5016722408026753,
+      "difference in differences (pp)": 0.6688963210702337
+    },
+    {
+      "seed": 4,
+      "color-trained frozen (%)": 97.32441471571906,
+      "color-trained finetune (%)": 97.49163879598662,
+      "gray-trained frozen (%)": 97.65886287625418,
+      "gray-trained finetune (%)": 98.16053511705685,
+      "frozen: gray - color (pp)": 0.33444816053511683,
+      "fine-tune: gray - color (pp)": 0.6688963210702337,
+      "fine-tune - frozen, color (pp)": 0.16722408026755842,
+      "fine-tune - frozen, gray (pp)": 0.5016722408026753,
+      "difference in differences (pp)": 0.33444816053511683
+    }
+  ],
+  "mean": {
+    "color-trained frozen (%)": 97.05685618729098,
+    "color-trained finetune (%)": 97.22408026755853,
+    "gray-trained frozen (%)": 97.82608695652172,
+    "gray-trained finetune (%)": 97.09030100334448,
+    "frozen: gray - color (pp)": 0.7692307692307687,
+    "fine-tune: gray - color (pp)": -0.13377926421404673,
+    "fine-tune - frozen, color (pp)": 0.16722408026755842,
+    "fine-tune - frozen, gray (pp)": -0.7357859531772571,
+    "difference in differences (pp)": -0.9030100334448156
+  },
+  "sd": {
+    "color-trained frozen (%)": 0.4817679027052766,
+    "color-trained finetune (%)": 0.8895943865063756,
+    "gray-trained frozen (%)": 0.2364905622697488,
+    "gray-trained finetune (%)": 0.9935418580276169,
+    "frozen: gray - color (pp)": 0.598279057525027,
+    "fine-tune: gray - color (pp)": 1.281202763169093,
+    "fine-tune - frozen, color (pp)": 0.6367703265772494,
+    "fine-tune - frozen, gray (pp)": 1.2035487769529478,
+    "difference in differences (pp)": 1.5444481456881352
+  },
+  "ci95_over_seeds_and_images": {
+    "frozen: gray - color (pp)": [
+      -0.3678929765886285,
+      1.9732441471571893
+    ],
+    "fine-tune: gray - color (pp)": [
+      -1.471571906354514,
+      1.1371237458193972
+    ],
+    "fine-tune - frozen, color (pp)": [
+      -0.9364548494983271,
+      1.270903010033444
+    ],
+    "fine-tune - frozen, gray (pp)": [
+      -2.207357859531771,
+      0.635451505016722
+    ],
+    "difference in differences (pp)": [
+      -2.7090301003344464,
+      0.735785953177257
+    ]
+  }
+}

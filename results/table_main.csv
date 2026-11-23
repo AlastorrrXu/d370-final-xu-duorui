@@ -1,0 +1,16 @@
+,frozen,finetune
+trainable params,"3,078","8,396,806"
+selected epoch,20,1
+val acc,99.17% (119/120),98.33% (118/120)
+val macro-F1,0.9917,0.9833
+test acc,97.66% (584/598),98.16% (587/598)
+test acc 95% CI,96.1-98.6,96.7-99.0
+test macro-F1,0.9765,0.9814
+test loss,0.0716,0.0655
+epochs,100,100
+train s total,193.2,212.4
+train s/epoch,1.93,2.12
+compute s/epoch,0.36,0.56
+train s to selected,37.6,2.0
+grad + Adam MiB,0.0,96.1
+GPU peak inc MiB,107.2,75.2

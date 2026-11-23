@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "protocol": "locked protocol (plateau checks from epoch 100)",
+      "epochs": 100,
+      "selected epoch, frozen": 20,
+      "selected epoch, fine-tune": 1,
+      "frozen correct": "584/598",
+      "fine-tune correct": "587/598",
+      "macro-F1, frozen": 0.9765,
+      "macro-F1, fine-tune": 0.9814,
+      "fine-tune minus frozen (pp)": 0.5,
+      "95% CI": "[-0.67, +1.67]",
+      "exact McNemar p": 0.6072
+    },
+    {
+      "protocol": "the assignment's literal rule (floor of 5 epochs)",
+      "epochs": 5,
+      "selected epoch, frozen": 4,
+      "selected epoch, fine-tune": 1,
+      "frozen correct": "584/598",
+      "fine-tune correct": "587/598",
+      "macro-F1, frozen": 0.9765,
+      "macro-F1, fine-tune": 0.9814,
+      "fine-tune minus frozen (pp)": 0.5,
+      "95% CI": "[-0.84, +1.67]",
+      "exact McNemar p": 0.6072
+    }
+  ],
+  "note": "literal-rule checkpoints rebuilt from the warm-up and checked against the logged run"
+}

@@ -1,0 +1,5 @@
+image_id,why,true,model,pred,p_target,target_logit,raw_cam_max,raw_cam_mean,cells_above_half,peak_cell,gradcam_vs_cam_dev
+Bengal_84,the two models disagree (largest change in p(true)),Bengal,frozen,Abyssinian,0.2046,-0.6327,0.0807,0.008,4,"5,5",5.6e-08
+Bengal_84,the two models disagree (largest change in p(true)),Bengal,finetune,Bengal,0.8332,3.6315,0.1966,0.074,10,"5,5",7.8e-07
+Persian_228,both models wrong,Persian,frozen,Abyssinian,0.0498,-3.3974,0.0,0.0,0,"0,0",1.6e-07
+Persian_228,both models wrong,Persian,finetune,Bengal,0.1158,-1.381,0.0,0.0,0,"0,0",5.2e-08

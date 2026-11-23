@@ -1,0 +1,26 @@
+{
+  "breeds": [
+    "Abyssinian",
+    "Bengal",
+    "Persian",
+    "Beagle",
+    "Pug",
+    "Samoyed"
+  ],
+  "original_index": {
+    "Abyssinian": 0,
+    "Bengal": 5,
+    "Persian": 23,
+    "Beagle": 4,
+    "Pug": 25,
+    "Samoyed": 29
+  },
+  "new_index": {
+    "Abyssinian": 0,
+    "Bengal": 1,
+    "Persian": 2,
+    "Beagle": 3,
+    "Pug": 4,
+    "Samoyed": 5
+  }
+}

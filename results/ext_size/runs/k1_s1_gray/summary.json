@@ -1,0 +1,39 @@
+{
+  "k": 1,
+  "seed": 1,
+  "mode": "gray",
+  "E": 100,
+  "plateau": {
+    "frozen": 100,
+    "finetune": 100
+  },
+  "photos": [
+    "Abyssinian_136",
+    "Persian_120",
+    "pug_110",
+    "beagle_182",
+    "Bengal_170",
+    "samoyed_177"
+  ],
+  "warmup": {
+    "val_correct": 28,
+    "val_loss": 1.9912877082824707
+  },
+  "minutes": 0.656746741666575,
+  "cond": {
+    "frozen": {
+      "selected_epoch": 100,
+      "val_correct": 104,
+      "val_loss": 0.4156697690486908,
+      "val_macro_f1": 0.863278798357708,
+      "sha256": "de195873cc2ecd61938a29ec7188eb6b129159d99bf62f1d96c258147ab56107"
+    },
+    "finetune": {
+      "selected_epoch": 19,
+      "val_correct": 90,
+      "val_loss": 0.7343195676803589,
+      "val_macro_f1": 0.7389268183040535,
+      "sha256": "15f4c1268fab53f5eb277aa31236e9ae1121a20dedfec8792635ade176adecaf"
+    }
+  }
+}

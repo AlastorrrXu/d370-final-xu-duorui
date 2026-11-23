@@ -1,0 +1,7 @@
+breed,original_label,new_label,trainval,train,val
+Abyssinian,0,0,100,80,20
+Bengal,5,1,100,80,20
+Persian,23,2,100,80,20
+Beagle,4,3,100,80,20
+Pug,25,4,100,80,20
+Samoyed,29,5,100,80,20

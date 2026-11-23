@@ -1,0 +1,5 @@
+image_id,true,target,model,pred,p_target,target_logit,raw_cam_max,cells_above_half,peak_cell,gradcam_vs_cam_dev
+Bengal_84,Bengal,Abyssinian,frozen,Abyssinian,0.7901,0.7186,0.1141,14,"2,3",2.6e-07
+Bengal_84,Bengal,Abyssinian,finetune,Bengal,0.1639,2.0057,0.1918,12,"2,3",1.4e-07
+Persian_228,Persian,Abyssinian,frozen,Abyssinian,0.7315,-0.7095,0.025,7,"3,5",2.0e-07
+Persian_228,Persian,Abyssinian,finetune,Bengal,0.2796,-0.4999,0.0282,8,"5,5",1.0e-07

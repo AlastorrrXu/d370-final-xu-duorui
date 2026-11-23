@@ -1,0 +1,26 @@
+{
+  "frozen_selected": {
+    "fc changed": true,
+    "layer4 tensors changed": 0,
+    "layer4 BN running stats changed": 0,
+    "frozen tensors changed": 0
+  },
+  "frozen_last": {
+    "fc changed": true,
+    "layer4 tensors changed": 0,
+    "layer4 BN running stats changed": 0,
+    "frozen tensors changed": 0
+  },
+  "finetune_selected": {
+    "fc changed": true,
+    "layer4 tensors changed": 30,
+    "layer4 BN running stats changed": 10,
+    "frozen tensors changed": 0
+  },
+  "finetune_last": {
+    "fc changed": true,
+    "layer4 tensors changed": 30,
+    "layer4 BN running stats changed": 10,
+    "frozen tensors changed": 0
+  }
+}

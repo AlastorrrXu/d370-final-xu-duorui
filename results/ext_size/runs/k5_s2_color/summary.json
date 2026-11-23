@@ -1,0 +1,63 @@
+{
+  "k": 5,
+  "seed": 2,
+  "mode": "color",
+  "E": 100,
+  "plateau": {
+    "frozen": 100,
+    "finetune": 100
+  },
+  "photos": [
+    "Abyssinian_120",
+    "beagle_125",
+    "beagle_134",
+    "beagle_140",
+    "Bengal_114",
+    "Persian_102",
+    "Persian_136",
+    "pug_13",
+    "pug_140",
+    "samoyed_117",
+    "samoyed_131",
+    "Abyssinian_169",
+    "Abyssinian_176",
+    "Abyssinian_179",
+    "Abyssinian_181",
+    "beagle_174",
+    "beagle_191",
+    "Bengal_161",
+    "Bengal_16",
+    "Bengal_171",
+    "Bengal_183",
+    "Persian_165",
+    "Persian_192",
+    "Persian_200",
+    "pug_156",
+    "pug_157",
+    "pug_186",
+    "samoyed_156",
+    "samoyed_168",
+    "samoyed_183"
+  ],
+  "warmup": {
+    "val_correct": 67,
+    "val_loss": 1.4219897985458374
+  },
+  "minutes": 0.6922536600002787,
+  "cond": {
+    "frozen": {
+      "selected_epoch": 85,
+      "val_correct": 116,
+      "val_loss": 0.18561504781246185,
+      "val_macro_f1": 0.9661959777492511,
+      "sha256": "b79227b1521e4d1db659119438446914dcc78d63b33dbe0ff1e24b5cf2d4cead"
+    },
+    "finetune": {
+      "selected_epoch": 30,
+      "val_correct": 114,
+      "val_loss": 0.20133161544799805,
+      "val_macro_f1": 0.9501077721209374,
+      "sha256": "b3b8223a636a81719276cec4bc16e49ff68ec4c76912f0d017517ac8bb6fdefd"
+    }
+  }
+}

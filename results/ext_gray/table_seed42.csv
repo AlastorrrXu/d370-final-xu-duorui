@@ -1,0 +1,5 @@
+model,trained on,color test: accuracy,color test: 95% CI,color test: macro-F1,gray test: accuracy,gray test: 95% CI,gray test: macro-F1
+frozen (head only),color,97.66% (584/598),96.1-98.6,0.9765,97.16% (581/598),95.5-98.2,0.9716
+frozen (head only),gray,96.49% (577/598),94.7-97.7,0.9648,97.99% (586/598),96.5-98.8,0.9799
+fine-tune (layer4 + head),color,98.16% (587/598),96.7-99.0,0.9814,97.32% (582/598),95.7-98.3,0.9729
+fine-tune (layer4 + head),gray,97.83% (585/598),96.3-98.7,0.9781,96.99% (580/598),95.3-98.1,0.9696

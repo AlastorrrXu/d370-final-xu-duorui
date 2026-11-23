@@ -1,0 +1,116 @@
+[
+  {
+    "comparison": "P1 frozen: gray - color",
+    "A": "584/598",
+    "B": "586/598",
+    "diff_pp": 0.33444816053511683,
+    "ci95_pp": [
+      -0.8361204013377921,
+      1.5050167224080258
+    ],
+    "only_A_right": 5,
+    "only_B_right": 7,
+    "mcnemar_p": 0.7744140625,
+    "macro_f1_diff": 0.0033095101685202133,
+    "macro_f1_ci95": [
+      -0.008265116976734025,
+      0.014607948744878252
+    ]
+  },
+  {
+    "comparison": "P2 fine-tune: gray - color",
+    "A": "587/598",
+    "B": "580/598",
+    "diff_pp": -1.170568561872909,
+    "ci95_pp": [
+      -2.1739130434782594,
+      -0.33444816053511683
+    ],
+    "only_A_right": 8,
+    "only_B_right": 1,
+    "mcnemar_p": 0.0390625,
+    "macro_f1_diff": -0.011874472540949643,
+    "macro_f1_ci95": [
+      -0.022509941436676527,
+      -0.002825092914521807
+    ]
+  },
+  {
+    "comparison": "S1 gray: fine-tune - frozen",
+    "A": "586/598",
+    "B": "580/598",
+    "diff_pp": -1.0033444816053505,
+    "ci95_pp": [
+      -2.5083612040133763,
+      0.33444816053511683
+    ],
+    "only_A_right": 12,
+    "only_B_right": 6,
+    "mcnemar_p": 0.237884521484375,
+    "macro_f1_diff": -0.010296540548353161,
+    "macro_f1_ci95": [
+      -0.025296273335787413,
+      0.0035749971056770443
+    ]
+  },
+  {
+    "comparison": "D1 frozen color model: gray test - color test",
+    "A": "584/598",
+    "B": "581/598",
+    "diff_pp": -0.5016722408026753,
+    "ci95_pp": [
+      -1.5050167224080258,
+      0.5016722408026753
+    ],
+    "only_A_right": 6,
+    "only_B_right": 3,
+    "mcnemar_p": 0.5078125
+  },
+  {
+    "comparison": "D2 fine-tune color model: gray test - color test",
+    "A": "587/598",
+    "B": "582/598",
+    "diff_pp": -0.8361204013377921,
+    "ci95_pp": [
+      -1.8394648829431426,
+      0.0
+    ],
+    "only_A_right": 7,
+    "only_B_right": 2,
+    "mcnemar_p": 0.1796875
+  },
+  {
+    "comparison": "D3 frozen, gray test: trained on gray - on color",
+    "A": "581/598",
+    "B": "586/598",
+    "diff_pp": 0.8361204013377921,
+    "ci95_pp": [
+      -0.33444816053511683,
+      2.006688963210701
+    ],
+    "only_A_right": 4,
+    "only_B_right": 9,
+    "mcnemar_p": 0.266845703125
+  },
+  {
+    "comparison": "D4 fine-tune, gray test: trained on gray - on color",
+    "A": "582/598",
+    "B": "580/598",
+    "diff_pp": -0.33444816053511683,
+    "ci95_pp": [
+      -1.3377926421404673,
+      0.5016722408026753
+    ],
+    "only_A_right": 5,
+    "only_B_right": 3,
+    "mcnemar_p": 0.7265625
+  },
+  {
+    "comparison": "S2 (fine-tune - frozen in gray) - (fine-tune - frozen in color)",
+    "diff_pp": -1.5050167224080258,
+    "ci95_pp": [
+      -3.0100334448160515,
+      0.0
+    ]
+  }
+]

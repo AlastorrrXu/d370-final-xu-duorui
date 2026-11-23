@@ -1,0 +1,8 @@
+,frozen,frozen,frozen,finetune,finetune,finetune
+,precision,recall,f1,precision,recall,f1
+Abyssinian,0.921,0.949,0.935,0.989,0.918,0.952
+Bengal,0.949,0.94,0.945,0.934,0.99,0.961
+Persian,1.0,0.98,0.99,0.98,0.99,0.985
+Beagle,0.99,1.0,0.995,0.99,1.0,0.995
+Pug,1.0,0.99,0.995,1.0,0.99,0.995
+Samoyed,1.0,1.0,1.0,1.0,1.0,1.0

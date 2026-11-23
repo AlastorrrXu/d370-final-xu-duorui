@@ -1,0 +1,37 @@
+{
+  "seed": 2,
+  "mode": "gray",
+  "reused": false,
+  "E": 100,
+  "plateau": {
+    "frozen": 100,
+    "finetune": 100
+  },
+  "warmup": {
+    "val_correct_before": 26,
+    "val_correct": 106,
+    "val_loss": 0.37803465127944946,
+    "batches_hash": "45d1ad8cc6f944f7"
+  },
+  "minutes": 3.5249271850004638,
+  "cond": {
+    "frozen": {
+      "selected_epoch": 29,
+      "val_correct": 118,
+      "val_loss": 0.1092408075928688,
+      "val_macro_f1": 0.9833333333333334,
+      "sha256": "d104c293dc9da027c9ca5a2f427ecaec51130d0fe08ad8e83771a147231c0817",
+      "layer4_tensors_changed": 0,
+      "train_time_total": 74.1393949004123
+    },
+    "finetune": {
+      "selected_epoch": 59,
+      "val_correct": 116,
+      "val_loss": 0.2657572031021118,
+      "val_macro_f1": 0.9669933255918569,
+      "sha256": "353c08a85eaa2e3721629fc7312a0655de875c7e1dc110d34e67bd1f971ab61c",
+      "layer4_tensors_changed": 30,
+      "train_time_total": 99.63133610005025
+    }
+  }
+}

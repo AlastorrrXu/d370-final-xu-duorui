@@ -1,0 +1,53 @@
+{
+  "locked_at": "2026-11-18T01:46:30+00:00",
+  "selected": {
+    "frozen": {
+      "epoch": 20,
+      "val_correct": 119,
+      "val_loss": 0.07667315751314163,
+      "sha256": "066ac8aadd3a2766eb5618e738ae30a607c332d85c6990ba4b7115244fd4b1e4"
+    },
+    "finetune": {
+      "epoch": 1,
+      "val_correct": 118,
+      "val_loss": 0.08075480163097382,
+      "sha256": "bc0640a1be30498b0d27dabac876eac2b93f0c89d808858ad2a74176eb777d1e"
+    }
+  },
+  "overall": "frozen",
+  "E": 100,
+  "plateau": {
+    "frozen": 100,
+    "finetune": 100
+  },
+  "settings": {
+    "seed": 42,
+    "breeds": [
+      "Abyssinian",
+      "Bengal",
+      "Persian",
+      "Beagle",
+      "Pug",
+      "Samoyed"
+    ],
+    "val_frac": 0.2,
+    "warmup_epochs": 1,
+    "min_epochs": 100,
+    "patience": 2,
+    "max_epochs": 200,
+    "batch": 16,
+    "eval_batch": 32,
+    "head_lr": 0.001,
+    "layer4_lr": 0.0001,
+    "num_workers": 0,
+    "data_root": "C:\\Users\\LENOVO\\d370-26a\\data\\bigdata",
+    "tf32": false,
+    "cudnn_deterministic": true
+  },
+  "plan": [
+    "test accuracy (Wilson 95% CI), macro-F1, per-class precision/recall/F1, confusion matrices",
+    "same test images: 2x2 table, exact McNemar, paired bootstrap (10000, seed 42) for acc and macro-F1 differences",
+    "error analysis: 3 most confident test errors of the overall model; fallback validation errors, then least confident correct",
+    "Grad-CAM at layer4, target = true breed; image A = disagreement with largest change in p(true), image B = another error, prefer both wrong"
+  ]
+}
